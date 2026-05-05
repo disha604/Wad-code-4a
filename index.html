@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>Company Website</title>
+
+<!-- jQuery Mobile CDN -->
+<link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+<script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+<script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+
+<style>
+.ui-header, .ui-footer {
+  background-color: #007bff !important;
+  color: white !important;
+  text-align: center;
+}
+
+.ui-btn {
+  background-color: #007bff !important;
+  color: white !important;
+}
+
+.ui-content {
+  background-color: white !important;
+}
+
+.box, .section {
+  background: #f4f8ff;
+  padding: 15px;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+</style>
+</head>
+
+<body>
+
+<!-- PAGE 1 -->
+<div data-role="page" id="home">
+
+  <div data-role="header">
+    <h1>Company Website</h1>
+  </div>
+
+  <div data-role="content" class="ui-content">
+
+    <div class="box">
+      <h2>Welcome</h2>
+      <p>Simple Mobile Website</p>
+    </div>
+
+    <a href="#info" data-role="button">View Company Info</a>
+
+    <table data-role="table" class="ui-responsive">
+      <thead>
+        <tr>
+          <th>Company</th>
+          <th>Department</th>
+          <th>Website</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>COEP</td>
+          <td>IT</td>
+          <td>
+            <a href="https://www.coeptech.ac.in" target="_blank">Visit</a>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+
+  </div>
+
+  <div data-role="footer">
+    <h4>Developed by Disha Bhat</h4>
+  </div>
+
+</div>
+
+<!-- PAGE 2 -->
+<div data-role="page" id="info">
+
+  <div data-role="header">
+    <h1>Company Information</h1>
+  </div>
+
+  <div data-role="content" class="ui-content">
+
+    <div class="section">
+      <h2>About</h2>
+      <p>This is a sample company mobile website.</p>
+    </div>
+
+    <div class="section">
+      <h2>Services</h2>
+      <ul data-role="listview">
+        <li>Web Development</li>
+        <li>Mobile App Development</li>
+        <li>Cloud Solutions</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>Contact</h2>
+      <p>Email: info@company.com</p>
+      <p>Phone: +91 9876543210</p>
+    </div>
+
+    <a href="#home" data-role="button" data-icon="back">Back to Home</a>
+
+  </div>
+
+  <div data-role="footer">
+    <h4>Developed by Disha Bhat</h4>
+  </div>
+
+</div>
+
+</body>
+</html>
+
